@@ -1,4 +1,4 @@
-$navbar-default-bg: #08088A;
+$navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -17,4 +17,66 @@ $navbar-default-bg: #08088A;
 
 .center {
   text-align: center;
+}
+
+.jumbotron {
+  background-image: asset_url('road.jpg');
+  background-size: cover;
+  height: 550px;
+  
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+  
+  p.absolute-left {
+      position: absolute;
+      bottom: 50px;
+      color: white;
+  }
+  
+  p.absolute-right {
+      position: absolute; 
+      top: 350px; 
+      right: 150px; 
+      text-align:right;
+      color:white;
+  }
+  
+}
+
+.footer {
+  // margin-top: 15px;
+  padding-top: 2px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  
+  a:hover {
+    color: #222;
+  }
+  
+  small {
+    float: left;
+  }
+  
+  ul {
+    float: right;
+    list-style: none;
+    
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
