@@ -40,3 +40,8 @@
     </div>
   </div>
 </div>
+<script>
+  $(document).on('turbolinks:request-end', function() {
+  if (tinyMCE) { tinyMCE.remove(); }
+});
+</script>

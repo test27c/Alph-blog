@@ -13,8 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
-//= require tinymce
 //= require disqus_rails
-// disable turbolinks because conflict with disqus and tiny mce (not loading properly)
-// require turbolinks
+//= require tinymce
+//= require turbolinks
 //= require_tree .
