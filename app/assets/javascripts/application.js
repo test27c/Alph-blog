@@ -15,5 +15,6 @@
 //= require bootstrap-sprockets
 //= require tinymce
 //= require disqus_rails
-//= require turbolinks
+// disable turbolinks because conflict with disqus and tiny mce (not loading properly)
+// require turbolinks
 //= require_tree .
