@@ -1,5 +1,5 @@
 DisqusRails.setup do |config|
-  config::SHORT_NAME = "shu_xian"
+  config::SHORT_NAME = "alph-blog"
   config::SECRET_KEY = "" #leave blank if not used
   config::PUBLIC_KEY = "" #leave blank if not used
   config::ACCESS_TOKEN = "edc5e5ed916d4a109e900270323208ed" #you got it, right? ;-)
